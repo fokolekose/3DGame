@@ -331,6 +331,7 @@
 "Assets/Scripts/Interface/IFly.cs"
 "Assets/Scripts/Interface/IRotation.cs"
 "Assets/Scripts/ListExecuteObject.cs"
+"Assets/Scripts/MiniMap.cs"
 "Assets/Scripts/Model/PlayerBall.cs"
 "Assets/Scripts/Model/PlayerBase.cs"
 "Assets/Scripts/Model/PlayerType.cs"

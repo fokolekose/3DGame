@@ -66,10 +66,11 @@
     <Compile Include="Assets\Scripts\DisplayEndGame.cs" />
     <Compile Include="Assets\Scripts\ListExecuteObject.cs" />
     <Compile Include="Assets\Scripts\Interface\IFlicker.cs" />
+    <Compile Include="Assets\Scripts\Model\PlayerType.cs" />
     <Compile Include="Assets\Scripts\InputController.cs" />
     <Compile Include="Assets\Scripts\InteractiveObject.cs" />
     <Compile Include="Assets\Scripts\BadBonus.cs" />
-    <Compile Include="Assets\Scripts\Model\PlayerType.cs" />
+    <Compile Include="Assets\Scripts\MiniMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

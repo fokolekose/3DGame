@@ -71,7 +71,7 @@ namespace Game
                 {
                     var gameObject = Resources.Load<PlayerBall>("Player");
                     _playerBall = Object.Instantiate(gameObject);
-                }
+            }
                 return _playerBall;
             }
         }
