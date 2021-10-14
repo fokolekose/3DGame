@@ -12,6 +12,7 @@ namespace Game
         private ListExecuteObject _interactiveObject;
         private DisplayEndGame _displayEndGame;
         private DisplayBonuses _displayBonuses;
+        private Condition _condition;
         private int _countBonuses;
         private Reference _reference;
 
@@ -36,6 +37,7 @@ namespace Game
                 _interactiveObject.AddExecuteObject(_inputController);
             }
 
+            _condition = new Condition(_reference.Condition);
             _displayEndGame = new DisplayEndGame(_reference.EndGame);
             _displayBonuses = new DisplayBonuses(_reference.Bonus);
             foreach(var o in _interactiveObject)
@@ -76,7 +78,9 @@ namespace Game
 
         private void Update()
         {
-            for(var i = 0; i < _interactiveObject.Length; i++)
+            _condition.Display();
+
+            for (var i = 0; i < _interactiveObject.Length; i++)
             {
                 var interactiveObject = _interactiveObject[i];
 

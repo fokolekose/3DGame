@@ -320,6 +320,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/BadBonus.cs"
 "Assets/Scripts/CameraController.cs"
+"Assets/Scripts/Condition.cs"
 "Assets/Scripts/DisplayBonuses.cs"
 "Assets/Scripts/DisplayEndGame.cs"
 "Assets/Scripts/GameController.cs"

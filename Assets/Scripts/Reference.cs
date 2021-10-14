@@ -11,6 +11,20 @@ namespace Game
         private GameObject _endGame;
         private Canvas _canvas;
         private Button _restart;
+        private GameObject _condition;
+
+        public GameObject Condition
+        {
+            get
+            {
+                if(_condition == null)
+                {
+                    var gameObject = Resources.Load<GameObject>("UI/Condition");
+                    _condition = Object.Instantiate(gameObject, Canvas.transform);
+                }
+                return _condition;
+            }
+        }
 
         public Button Restart
         {
